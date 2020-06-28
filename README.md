@@ -21,7 +21,7 @@ This script allows you to send messages to your discord server from your onset s
 
 6. Feel free to change the name and the channel but before you click **Save**, please press **Copy**!
 
-7. After you created the webhook, go back to your script.lua file and paste in your webhook URL in the first variable and remove **https://discordapp.com**.
+7. After you created the webhook, go back to your script.lua file and paste in your webhook URL in the **WebhookURL** variable and remove **https://discordapp.com**.
 
 *You should have something like: /api/webhooks/random number/random string and numbers*
 
