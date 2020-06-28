@@ -18,5 +18,4 @@ function sendDiscordMessage(Message)
 		http_destroy(r)
     end
 end
-
-sendDiscordMessage("test")
+AddFunctionExport("sendDiscordMessage", sendDiscordMessage)
