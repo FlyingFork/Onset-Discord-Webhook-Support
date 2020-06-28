@@ -1,3 +1,5 @@
+WebhookLink = "YOUR WEBHOOK LINK HERE; CHECK README TO SEE WHAT TO PUT IN HERE"
+
 function sendDiscordMessage(Message)
 
     local body = ""
@@ -5,7 +7,7 @@ function sendDiscordMessage(Message)
 
     local r = http_create()
 	http_set_host(r, "discordapp.com")
-	http_set_target(r, "/api/webhooks/712680734942429204/rhLqNOWnXSe0BLyEWfMAQHzQ-rCh-9qul6hEvi0Nb5gr3fgSslAfTfyxTfki6GjreEMT")
+	http_set_target(r, WebhookLink)
 	http_set_verb(r, "post")
 	http_set_timeout(r, 5000)
     http_set_field(r, "content-length", string.len(body))
