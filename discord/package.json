@@ -1,0 +1,8 @@
+{
+	"author": "FlyingFork",
+	"version": "1.1",
+	"server_scripts": [
+		"json.lua",
+		"script.lua"
+	]
+}
