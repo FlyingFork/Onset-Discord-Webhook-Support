@@ -73,4 +73,4 @@ sendDiscordEmbed(myEmbed)
 **Don't forget to tag me in the onset discord server if you need help with embeds**
 
 # If you need help feel free to tag me in the onset discord server 
-*FlyingFork#6969*
+*FlyingFork#9415*
